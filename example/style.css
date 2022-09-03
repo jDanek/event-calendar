@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+.content {
+    min-width: 200px;
+    /*width: 800px;*/
+    width: 200px;
+    /*width: min-content;*/
+    margin: 0 auto;
+}

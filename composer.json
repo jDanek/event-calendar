@@ -1,0 +1,23 @@
+{
+  "name": "danek/event-calendar",
+  "description": "Simple event calendar",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jirka Daněk",
+      "homepage": "https://jdanek.eu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Danek\\EventCalendar\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "ext-ctype": "*",
+    "ext-mbstring": "*"
+  }
+}
