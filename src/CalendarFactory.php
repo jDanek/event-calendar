@@ -10,7 +10,7 @@ class CalendarFactory
      * @param \DateTimeInterface|int|string|null $date
      * @return Calendar
      */
-    public function createCalendar($date): Calendar
+    public function createCalendar($date = null): Calendar
     {
         return new Calendar(new CalendarConfig(), new DateParser(), $date);
     }
